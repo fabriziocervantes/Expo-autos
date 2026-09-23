@@ -17,10 +17,23 @@
     <a href="#inicio" class="brand">
       <span class="brand-expo">Expo</span><span class="brand-autos">Autos</span>
     </a>
-    <a id="llamar-top" href="tel:+526141780055" class="btn btn-primary btn-header">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-      Llamar 614 178 0055
-    </a>
+    <nav id="nav-menu" class="nav-menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#ventajas">Ventajas</a>
+      <a href="#inventario">Inventario</a>
+      <a href="#consignacion">Consignación</a>
+      <a href="#resenas">Reseñas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <a id="llamar-top" href="tel:+526141780055" class="btn btn-primary btn-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Llamar 614 178 0055
+      </a>
+      <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -46,7 +59,7 @@
   </div>
 </section>
 
-<section class="section section-light">
+<section id="ventajas" class="section section-light">
   <div class="wrap">
     <span class="eyebrow">Por qué elegirnos</span>
     <h2 class="section-title" style="max-width:20ch">Un lote serio, con el trato de siempre</h2>
@@ -179,7 +192,7 @@
   </div>
 </section>
 
-<section class="section section-accent">
+<section id="consignacion" class="section section-accent">
   <div class="wrap consign-grid">
     <h2 class="consign-title">¿Quieres vender tu auto? Lo recibimos en consignación.</h2>
     <div class="consign-cta">
@@ -188,7 +201,7 @@
   </div>
 </section>
 
-<section class="section section-light">
+<section id="resenas" class="section section-light">
   <div class="wrap">
     <div class="rating-block">
       <span class="rating-big">4.5</span>
