@@ -151,32 +151,6 @@ a:hover { color: var(--red-dark); }
 
 .btn-header { font-size: 15px; padding: 12px 20px; min-height: 44px; }
 
-/* Placeholder image slots (stand-ins for image-slot.js, the Claude
-   Design authoring widget — this is a plain static box for production) */
-
-.placeholder-img {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 4/3;
-  background: rgba(127, 127, 127, .08);
-  border: 1.5px dashed currentColor;
-  color: inherit;
-  opacity: .9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 12px;
-}
-
-.placeholder-cap {
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: .01em;
-  opacity: .75;
-  max-width: 90%;
-}
-
 /* Hero */
 
 .hero {
@@ -292,18 +266,14 @@ a:hover { color: var(--red-dark); }
 }
 .car-card:hover { border-color: var(--red); }
 
-.car-card-body { padding: 22px 22px 24px; }
-
-.tag-placeholder {
-  display: inline-block;
-  font-size: 11px;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--black);
-  background: var(--gray);
-  padding: 3px 8px;
-  margin-bottom: 12px;
+.car-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
 }
+
+.car-card-body { padding: 22px 22px 24px; }
 
 .car-title {
   font-family: var(--font-heading);
@@ -314,15 +284,7 @@ a:hover { color: var(--red-dark); }
   line-height: 1.1;
 }
 
-.car-meta { font-size: 14px; color: var(--gray); margin: 8px 0 16px; }
-
-.car-price {
-  font-family: var(--font-heading);
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--white);
-  margin: 0 0 18px;
-}
+.car-meta { font-size: 14px; color: var(--gray); margin: 8px 0 18px; }
 
 .inventory-cta { margin-top: 40px; }
 .inventory-cta .btn { display: inline-flex; }
